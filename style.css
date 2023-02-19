@@ -14,6 +14,7 @@ html{
   color: #000000;
 }
 /*Header*/
+
 .header{ 
   width: 100%;
   display: flex;
@@ -223,6 +224,7 @@ em{
   color:#CF5510;
   
 }
+
 .learn{
   font-family: 'Lobster';
   position: absolute;
@@ -299,6 +301,14 @@ em{
 
 }
 
+.students{
+  display: flex;
+  /*justify-content: space-between;*/
+  flex-wrap: wrap;
+  gap: 37px;
+}
+
+
 .students_card{
   width: 210px; 
 }
@@ -309,9 +319,4 @@ em{
 
 
 }
-.students{
-  display: flex;
-  /*justify-content: space-between;*/
-  flex-wrap: wrap;
-  gap: 37px;
-}
+
