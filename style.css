@@ -76,6 +76,11 @@ html{
 
 }
 
+.login-button:hover {
+  background-color: forestgreen;
+
+}
+
 /*Popup*/
 .login-popup{
   background: yellow;
@@ -295,7 +300,7 @@ em{
 }
 
 .main{
-  height: calc(180vh-136px);
+  height: calc(100vh - 136px);
   overflow-x:auto;
   padding-left: 50px;
 
@@ -305,7 +310,7 @@ em{
   display: flex;
   /*justify-content: space-between;*/
   flex-wrap: wrap;
-  gap: 37px;
+  gap: 10px;
 }
 
 
@@ -313,7 +318,9 @@ em{
   width: 210px; 
 }
 .students_card-ing{
-  /*width: 200px;*/
+  /*display: block;*/
+  text-align: center;
+  width: 200px;
   height: 270px;
   background-color: #86C6F4;
 
