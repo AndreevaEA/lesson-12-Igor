@@ -9,6 +9,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../style.css">
   <title>Сайт группы</title>
+  <script async src="../js/popup.js">
+  </script>
 </head>
 <body class="page">
   <header class="header">
@@ -20,7 +22,16 @@
       <li><a class="menu-link" href="./contacts.html">Контакты</a></li>
       
     </ul>
-    <button class="login-button">Войти</button>  
+    <button class="login-button">Войти</button>
+    <div class="login-popup">
+      <img class="popup-close" alt="Закрывающая иконка" src="../imges/icons8-отмена (red).svg">
+      <form class="login-form">
+        <h2 class="login-heading">Войти на сайт</h2>
+        <input class="login-input" name="login" type="text" placeholder="Логин" required>
+        <input class="login-password" name="password" type="text" placeholder="Пароль" required>
+        <button class="login-button" type="submit">Войти</button>
+      </form>
+    </div>    
   </header>
   <main class="main">
     <h1 class="title">
@@ -29,11 +40,14 @@
     <div class="students">
       <div class="students_card">
         <div class="students_card-ing"></div>
-        <span> Василий Иванов</span>
+        <a class="menu-link active-link" href="./about me.html">Андреева Екатерина Александровна</a>
       </div>
       <div class="students_card">
+        
         <div class="students_card-ing"></div>
+        <div class="new-student">Новичок</div>
         <span> Мария<br> Александрова</span>
+        
       </div>
       <div class="students_card">
         <div class="students_card-ing"></div>

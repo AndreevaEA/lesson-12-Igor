@@ -168,6 +168,26 @@ html{
   display: block;
 }
 
+.popup-close{
+  position: absolute;
+  top: -35px;
+  right: -25px;
+  border: 4px double red;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+  
+}
+
+.popup-close:hover{
+  border-radius: 50%;
+  transform: rotate(360deg);
+
+}
+.table{
+  background-color: #86C6F4;
+}
+
 /* Contacts*/
 .text-info{
   font-weight: 400;
@@ -186,6 +206,18 @@ html{
   height: auto;
 }
 
+.map{
+  width: 100%;
+  min-width: 1300px;
+  min-height: 370px;
+  margin: 0 auto;
+  padding: 0 16px;
+  box-sizing: border-box;
+}
+
+.video{
+  border: 2px solid #EA5D21;
+}
 
 /*Main*/
 .main{
@@ -281,14 +313,39 @@ em{
 
 /* Meadia*/
 
-@media (max-width: 1300px) {
-  .header{
-    width: 100%;
+@media (max-width: 1000px) {
+
+  .main{ 
+    box-sizing: border-box;
+    padding: 0 2vw;
   }
+  .header{
+    justify-content: center;
+    padding: 1em 16px;
+    gap: 1em;
+  }
+
+  
   .menu-link{ 
-    width: 100%;
+    width: 60%;
     min-height: 80px;
 
+  }
+  .intro-text{
+    margin-bottom: 40px;
+  }
+  .login-imput{
+    width: 100%;
+    min-width: 300px;
+  }
+  .login-password{
+    width: 100%;
+    min-width: 300px;
+  }
+  .popup-close{
+    position: absolute;
+    top: -30px;
+    right: 0px;
   }
 
   
@@ -324,6 +381,20 @@ em{
   height: 270px;
   background-color: #86C6F4;
 
-
+}
+.new-students{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  background: #3AA828;
+  color: #ffffff;
+  padding: 2px 6px 2px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  text-decoration: none;
+  position: relative;
+  top: -336px;
+  left: 118px;
 }
 
