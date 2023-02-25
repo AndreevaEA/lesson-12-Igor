@@ -384,7 +384,7 @@ em{
 }
 .new-students{
   font-style: normal;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 18px;
   line-height: 21px;
   background: #3AA828;
@@ -394,7 +394,7 @@ em{
   border-radius: 20px;
   text-decoration: none;
   position: relative;
-  top: -336px;
-  left: 118px;
+  top: -320px;
+  left: 110px;
 }
 
