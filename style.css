@@ -372,7 +372,8 @@ em{
 
 
 .students_card{
-  width: 210px; 
+  width: 210px;
+  position: relative; 
 }
 .students_card-ing{
   /*display: block;*/
@@ -382,7 +383,14 @@ em{
   background-color: #86C6F4;
 
 }
+.students_card-ing img {
+  width: 100%;
+  height: 100%;
+}
+  
+
 .new-students{
+  position: absolute;
   font-style: normal;
   font-weight: 400px;
   font-size: 18px;
@@ -393,8 +401,7 @@ em{
   text-transform: uppercase;
   border-radius: 20px;
   text-decoration: none;
-  position: relative;
-  top: -320px;
-  left: 110px;
+  top: -12px;
+  right: 0;
 }
 
